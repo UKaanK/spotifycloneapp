@@ -1,16 +1,18 @@
-# spotifycloneapp
+Spotify Clone Uygulaması:
+Teknoloji: Bloc yapısı, Firebase
 
-A new Flutter project.
+Açıklama: Spotify Clone uygulaması, kullanıcıların müzik dinleme deneyimini geliştirmek amacıyla tasarlanmış bir mobil uygulamadır. Proje, aşağıdaki bileşenleri içerir:
 
-## Getting Started
+Hedef: Uygulamanın temel amacı, kullanıcılara sevdikleri müzikleri kolayca bulabilme ve dinleyebilme imkanı sunmaktır. Kullanıcılar, favori şarkılarını kolayca ekleyerek müzik dinleme deneyimlerini kişiselleştirebilirler.
 
-This project is a starting point for a Flutter application.
+Kullanıcı Arayüzü: Uygulama, kullanıcı dostu bir arayüze sahiptir. Akıcı bir navigasyon deneyimi sunarak kullanıcıların şarkıları ve sanatçıları kolayca keşfetmelerini sağlar. Modern bir tasarım ile kullanıcıların ilgisini çekmeyi hedefler.
 
-A few resources to get you started if this is your first Flutter project:
+Müzik Veritabanı: Uygulama, Firebase Firestore'dan şarkı verilerini çekmek için bir servis implementasyonuna sahiptir. Bu sayede, kullanıcılar sürekli güncellenen bir müzik kütüphanesine erişebilir.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Şarkı Modelleme: Uygulamada, müzik verileri SongEntity adlı bir sınıf ile modellenmektedir. Bu sınıf, şarkının başlığı (title), sanatçısı (artist), süresi (duration) ve çıkış tarihi (releaseDate) gibi önemli alanları içermektedir. Bu yapı, verilerin düzenli ve erişilebilir olmasını sağlamaktadır.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Favori Şarkı Ekleme: Kullanıcılar, beğendikleri şarkıları favorilerine ekleyerek hızlı erişim sağlayabilirler. Bu özellik, kullanıcıların sık dinledikleri parçaları kolayca bulmalarını ve müzik dinleme deneyimlerini özelleştirmelerini sağlar.
+
+Bloc Yapısı: Uygulama, durum yönetimi için Bloc yapısını kullanmaktadır. Bu sayede, kullanıcı etkileşimleri ile arayüz güncellemeleri arasında etkili bir iletişim sağlanmış, performans artışı ve kodun yeniden kullanılabilirliği sağlanmıştır.
+
+Gelecek Geliştirmeler: Uygulamanın gelecek sürümlerinde, kullanıcıların daha fazla özellik ile deneyimlerini geliştirebilmeleri için öneri algoritmaları eklemeyi planlıyorum. Bu sayede, kullanıcılar müzik zevklerine göre yeni şarkılar keşfedebilir.
